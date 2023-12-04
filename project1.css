@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: rgb(17, 17, 17);
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    align-items: center;
+   
+    padding: 130px 100px;
+    justify-content: center;
+    text-align: center;
+}
+.container h2{
+    
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+
+}
+button{
+    color: aqua;
+    border: 2px solid aqua;
+    padding: 10px 27px;
+    border-radius: 6px;
+    background: black;
+    transition: all 0.2s ease;
+    font-size: 16px;
+
+}
+button:active{
+    transform: scale(0.96);
+}
+button:hover{
+    box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 100px aqua;
+    color: black;
+    background: aqua;
+}
